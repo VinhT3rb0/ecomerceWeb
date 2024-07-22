@@ -1,0 +1,14 @@
+.bannerSlider {
+    clear: both;
+    display: flex;
+    margin: 0 0 6px;
+}
+.bannerSlider a{
+    width: calc((100% - 18px) / 4);
+    margin-right: 6px;
+}
+.bannerSlider a img {
+    vertical-align: middle;
+    border-radius: 5px;
+    max-width: 100%;
+}

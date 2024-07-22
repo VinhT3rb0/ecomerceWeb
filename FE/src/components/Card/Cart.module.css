@@ -1,0 +1,50 @@
+.catSliderSection {
+    padding: 20px 0;
+}
+/* .Container_Cart{
+    height: 450px;
+} */
+
+.Image_Item{
+    height: 250px;
+}
+
+.Content{
+    height: 150px;
+}
+.gleeBlock {
+    background: url('https://hanoicomputercdn.com/media/banner/10_May6c8b4f84d4deb734b060811c6e4f2935.png') no-repeat center center;
+    height: 210px;
+    background-size: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.containerFluid {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hd {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cat_Slider_Main {
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(255, 218, 32, 1) 0%, rgba(255, 123, 0, 1) 100%);
+}
+.slick-slide {
+    padding: 0 10px;
+}
+
+.item {
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

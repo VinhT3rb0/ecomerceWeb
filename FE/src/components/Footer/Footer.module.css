@@ -1,0 +1,79 @@
+a {
+    color: #000;
+}
+.footerNewsletter {
+    background: #202c43;
+    padding: 20px 20px 40px;
+}
+.footerNewsletterTitle {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.footerNewsletterForm {
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+.footerNewsletterForm input {
+    font-size: 12px;
+    background: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    width: 600px;
+    height: 40px;
+    margin-right: 0;
+}
+.footerSubscribeButton {
+    background: linear-gradient(180deg, #ffba28 0%, #ff9401 79.17%);
+    color: #fff !important;
+    padding: 10.5px 55px;
+    border-radius: 0 3px 3px 0;
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    height: 40px;
+    right: -1px;
+}
+.Container {
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.FooterLinks {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.linksGroupContainer {
+    width: 25%;
+}
+.linksGroupTitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+.linksGroupTitle::after {
+    display: block;
+    content: '';
+    height: 2px;
+    width: 100px;
+    background: red;
+    margin-top: 5px;
+}
+.linksGroupContainer p{
+    margin: 10px 0;
+}
+.copyright {
+    color: #fff;
+    line-height: 1;
+    padding: 20px 0;
+}
+.copyright p {
+    font-size: 13px;
+}

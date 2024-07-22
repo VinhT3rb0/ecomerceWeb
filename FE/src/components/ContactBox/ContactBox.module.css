@@ -1,0 +1,42 @@
+.ContactBoxBottom {
+    position: fixed;
+    right: 10px;
+    z-index: 99;
+    opacity: 0;
+    bottom: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+.ContactBoxBottom.visible {
+    opacity: 1;
+}
+.contactBoxWrapper {
+    color: #000;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    transform: .2s;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .08);
+}
+.contactIconBox {
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 38px;
+    border-radius: 999px;
+}
+.contactIconBox img {
+    width: 30px;
+    height: auto;
+}
+.contactInfo {
+    padding-left: 10px;
+}
+.contactInfo b,
+.contactInfo span {
+    font-size: 13px;
+}

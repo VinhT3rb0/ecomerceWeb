@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    depends_on:
+      - app
+    command: tunnel --no-autoupdate run --token eyJhIjoiMTljZTYyZDZjZjI1NmZlNTExZDJlYmZmMjhlN2I1NjgiLCJ0IjoiNWZiZDM2MjAtNjc1NC00OWYxLWFlNmQtMWU5OWNiOGZhMzJhIiwicyI6Ik5qaGpNbVpqT1RVdFpqSmlOeTAwTmpjNExXSTBOell0Tm1RMVptUTJOR1k0TnpNMiJ9
+    ports:
+      - "8081:8080"
